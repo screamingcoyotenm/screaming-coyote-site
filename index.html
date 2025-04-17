@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Screaming Coyote</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #fffaf4;
+      color: #333;
+    }
+    header, footer {
+      background-color: #a0522d;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav {
+      background-color: #deb887;
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      padding: 1rem;
+    }
+    nav a {
+      color: #333;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .container {
+      padding: 2rem;
+    }
+    h2 {
+      color: #a0522d;
+    }
+    .menu-section {
+      margin-bottom: 2rem;
+    }
+    .menu-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+    .menu-item {
+      border: 1px solid #deb887;
+      padding: 1rem;
+      background-color: #fff;
+      border-radius: 8px;
+    }
+    .menu-item img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 6px;
+      margin-bottom: 0.5rem;
+    }
+    .menu-item h4 {
+      margin: 0.5rem 0 0.25rem;
+      font-size: 1.1rem;
+      color: #a0522d;
+    }
+    .menu-item p {
+      margin: 0;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Screaming Coyote</h1>
+    <p>New Mexican Inspired Bar & Restaurant</p>
+  </header>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#menu">Menu</a>
+  </nav>
+  <div class="container">
+    <section id="about">
+      <h2>About Us</h2>
+      <p>
+        Screaming Coyote is a family run bar and restaurant located in the Mariposa Housing Community in Rio Rancho. Locally owned and operated by lifelong New Mexicans, we are here to serve the community that has served us our entire lives. We offer a New Mexican themed casual style cuisine, coupled with a comprehensive yet creative drink/cocktail menu which will satisfy all. A lovely and sleek indoor dining area, along with the stunning views of the Sandia Mountains on our patio perfectly encapsulate the beauty of the community in which we live. We warmly welcome all and look forward to serving you!
+      </p>
+    </section>
+    <section id="hours">
+      <h2>Hours</h2>
+      <p>We are open from <strong>Thursday to Sunday</strong>, currently from <strong>2:00 PM to 8:00 PM</strong>. Our hours will be expanding very soon to <strong>12:00 PM to 9:00 PM</strong>!</p>
+    </section>
+    <section id="menu">
+      <h2>Menu</h2>
+      <div class="menu-grid">
+        <div class="menu-item">
+          <img src="Burrito Plate.jpeg" alt="Beef Burrito Plate" />
+          <h4>Beef Burrito Plate - $10.50</h4>
+          <p>Smothered beef and bean burrito with green chile and cheese. Served with pinto beans.</p>
+        </div>
+        <div class="menu-item">
+          <img src="Fire Dog.jpeg" alt="Fire Dog" />
+          <h4>Fire Dog - $12.00</h4>
+          <p>Green chile bratwurst with queso and pico on a brioche bun. Includes side.</p>
+        </div>
+        <div class="menu-item">
+          <img src="Coyote Dog.jpeg" alt="Coyote Dog" />
+          <h4>Coyote Dog - $12.50</h4>
+          <p>Beef hot dog with queso, jalapenos, and tomatoes on a brioche bun. Includes side.</p>
+        </div>
+        <div class="menu-item">
+          <h4>Green Chile Flatbread - $13.50</h4>
+          <p>Mozzarella, EVOO, parmesan, and green chile.</p>
+        </div>
+        <div class="menu-item">
+          <h4>Chicken Pesto Flatbread - $15.00</h4>
+          <p>Pesto sauce, mozzarella, EVOO, parmesan, and chicken.</p>
+        </div>
+        <div class="menu-item">
+          <h4>Nachos - $15.50</h4>
+          <p>Queso, black beans, jalapenos, guac, cheddar, chicken, sour cream.</p>
+        </div>
+        <div class="menu-item">
+          <h4>Coyote Dip Trio - $13.50</h4>
+          <p>Tortilla chips with salsa, guacamole, and queso.</p>
+        </div>
+        <div class="menu-item">
+          <h4>Red Chile Caesar Wrap - $10.50</h4>
+          <p>Spinach wrap with romaine, red chile powder, Caesar dressing, and chicken.</p>
+        </div>
+        <div class="menu-item">
+          <h4>Taquitos - $12.50</h4>
+          <p>Beef or carne adovada, topped with crema, guac, and cotija cheese.</p>
+        </div>
+        <div class="menu-item">
+          <h4>Caesar Salad - $11.50</h4>
+          <p>Romaine, Caesar dressing, chicken, croutons, parmesan. Choice of side.</p>
+        </div>
+        <div class="menu-item">
+          <h4>Southwestern Chicken Salad - $12.50</h4>
+          <p>Romaine, black beans, salsa, ranch, cheddar, chicken. Choice of side.</p>
+        </div>
+        <div class="menu-item">
+          <h4>Palodori Meatballs - $15.50</h4>
+          <p>Meatballs in tomato sauce with mozzarella and garlic bread.</p>
+        </div>
+        <div class="menu-item">
+          <img src="Mozz Sticks.jpeg" alt="Mozzarella Sticks" />
+          <h4>Mozzarella Sticks - $6.50</h4>
+          <p>Served with marinara sauce.</p>
+        </div>
+        <div class="menu-item">
+          <h4>Churro Fries - $5.00</h4>
+          <p>Sweet churro-style fries tossed in cinnamon sugar.</p>
+        </div>
+        <div class="menu-item">
+          <h4>Coke Float - $6.00</h4>
+          <p>Classic coke and vanilla ice cream float.</p>
+        </div>
+        <div class="menu-item">
+          <h4>Drinks</h4>
+          <p>7-Up, Coca-Cola, Diet Coke, Root Beer, San Pellegrino - $2.50</p>
+          <p>Iced Tea - $3.50 | Sparkling Water - $3.00</p>
+          <p>Cranberry or Orange Juice - $2.00</p>
+          <p>Protein Shake - $6.50</p>
+        </div>
+      </div>
+    </section>
+    <section id="takeout">
+      <h2>Takeout Orders</h2>
+      <p>We are now accepting takeout orders! Call us at <strong>505-525-8087</strong> to place your order.</p>
+      <p><a href="tel:5055258087" style="display:inline-block; margin-top:1rem; padding:0.75rem 1.5rem; background-color:#a0522d; color:#fff; text-decoration:none; border-radius:5px; font-weight:bold;">Call Now</a></p>
+      <p>You can order anything on our menu any time we are open. We look forward to serving you!</p>
+    </section>
+  </div>
+  <footer>
+    <p>&copy; 2025 Screaming Coyote | Rio Rancho, NM</p>
+  </footer>
+</body>
+</html>
